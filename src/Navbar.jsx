@@ -1,12 +1,12 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 function Hey() {
   return (
-    <nav className=" navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container-fluid p-3">
 
-        <a className="navbar-brand" href="#home">Portfolio.</a>
+        <a className="navbar-brand" href="#a1">Portfolio.</a>
 
         <button
           className="navbar-toggler"
@@ -29,11 +29,11 @@ function Hey() {
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#a3">Skill</a>
+              <a className="nav-link" href="#a3">Skills</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#a4">Project</a>
+              <a className="nav-link" href="#a4">Projects</a>
             </li>
 
           </ul>
@@ -41,7 +41,7 @@ function Hey() {
 
       </div>
     </nav>
-  );
+  )
 }
 
-export default Hey;
+export default Hey

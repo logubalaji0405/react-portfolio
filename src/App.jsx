@@ -1,7 +1,6 @@
-import Hey from "./Navbar";
-import "./index.css";
-import img from "./assets/profile.avif";
-import { Link } from "react-router-dom";
+import Hey from "./Navbar"
+import "./index.css"
+import img from "./assets/profile.avif"
 
 function App() {
   return (
@@ -9,7 +8,7 @@ function App() {
 
       <Hey />
 
-
+      {/* HOME */}
       <section id="a1" className="container pt-5">
         <div className="row mt-5 mb-5 align-items-center">
           <div className="col-md-6 text-center">
@@ -23,7 +22,7 @@ function App() {
         </div>
       </section>
 
-
+      {/* ABOUT */}
       <section id="a2" className="container">
         <h1>ABOUT</h1>
         <p>
@@ -33,7 +32,7 @@ function App() {
         </p>
       </section>
 
-
+      {/* SKILLS */}
       <section id="a3" className="container">
         <h1>Skills</h1>
         <ul>
@@ -46,37 +45,47 @@ function App() {
         </ul>
       </section>
 
-
+      {/* PROJECTS */}
       <section id="a4" className="container">
         <h1>Projects</h1>
+
         <h3>Front-End Project</h3>
         <p>
           Built a frontend e-commerce website using HTML, CSS, JavaScript, and
-          Bootstrap with a responsive and user-friendly interface.
+          Bootstrap with a responsive UI.
         </p>
         <p>
-          Project link:{" "}
-          <a href="https://logubalaji0405.github.io/mini-project/" target="_blank" rel="noopener noreferrer">
-            Front-End Project
+          <a
+            href="https://logubalaji0405.github.io/mini-project/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Project
           </a>
         </p>
 
-        <h3>React-project</h3>
-        <p>Built a responsive React portfolio website using HTML, CSS, and Bootstrap to showcase personal projects and technical skills.</p>
-                <p>
-          Project link:{" "}
-          <a href="" target="_blank" rel="noopener noreferrer">
-            React-Project
+        <h3>React Portfolio</h3>
+        <p>
+          Built a responsive React portfolio website using React, Bootstrap,
+          and GitHub Pages.
+        </p>
+        <p>
+          <a
+            href="https://logubalaji0405.github.io/react-portfolio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View Project
           </a>
         </p>
       </section>
 
-      <footer>
+      <footer className="text-center mt-5 mb-3">
         <p>© 2025 Balaji</p>
       </footer>
 
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
