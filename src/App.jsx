@@ -8,8 +8,7 @@ import linkedin from './assets/linkedin.png'
 import insta from './assets/insta.jpg'
 import whatsapp from './assets/whatsapp.png'
 import mail from './assets/mail.jpg'
-import { Contact } from "./Contact"
-
+ 
 function App() {
   return (
     <div className="body">
