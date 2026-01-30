@@ -6,13 +6,13 @@ function Hey() {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div className="container-fluid p-3">
 
-        <a className="navbar-brand" href="#a1">Portfolio.</a>
+        <a className="navbar-brand" href="/#a1">Portfolio.</a>
 
         <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
+          data-bs-target="/#navbarSupportedContent"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -21,23 +21,23 @@ function Hey() {
           <ul className="navbar-nav ms-auto">
 
             <li className="nav-item">
-              <a className="nav-link" href="#a1">Home</a>
+              <a className="nav-link" href="/#a1">Home</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#a2">About</a>
+              <a className="nav-link" href="/#a2">About</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#a3">Skills</a>
+              <a className="nav-link" href="/#a3">Skills</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#a4">Projects</a>
+              <a className="nav-link" href="/#a4">Projects</a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#a5">Contact</a>
+              <a className="nav-link" href="/#a5">Contact</a>
             </li>
 
           </ul>
