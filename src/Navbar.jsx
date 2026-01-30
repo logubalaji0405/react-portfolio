@@ -35,10 +35,10 @@ function Hey() {
             <li className="nav-item">
               <a className="nav-link" href="#a4">Projects</a>
             </li>
-               <li className="nav-item">
-              <a className="nav-link" href="#a5">Contect</a>
-            </li>
 
+            <li className="nav-item">
+              <a className="nav-link" href="#a5">Contact</a>
+            </li>
 
           </ul>
         </div>
@@ -48,4 +48,4 @@ function Hey() {
   )
 }
 
-export default Hey;
+export default Hey

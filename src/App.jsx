@@ -8,12 +8,11 @@ import linkedin from './assets/linkedin.png'
 import insta from './assets/insta.jpg'
 import whatsapp from './assets/whatsapp.png'
 import mail from './assets/mail.jpg'
-import { Contact } from "./contact"
+import { Contact } from "./Contact"
 
 function App() {
   return (
     <div className="body">
-
 
       <Hey />
 
@@ -24,8 +23,7 @@ function App() {
             <h3>Hey, I'm Balaji </h3>
             <p className="underline">I'm a Front-End Developer</p>
             <a href="#a4" className="view-pro">View My Project</a>
-            <br />
-            <br />
+            <br /><br />
             <a href="#a5" className="contact">Contact Me</a>
           </div>
           <div className="col-md-6 text-center">
@@ -38,7 +36,7 @@ function App() {
       <section id="a2" className="container">
         <h1>ABOUT</h1>
         <p>
-          Hi, I’m Balaji,a Front-End Developer skilled in HTML, CSS, JavaScript, Bootstrap, and React.js.
+          Hi, I’m Balaji, a Front-End Developer skilled in HTML, CSS, JavaScript, Bootstrap, and React.js.
           I build responsive, user-friendly websites with clean UI and smooth interactions.<br />
           I always eager to learn new tools and take on challenges that help me grow as a developer.
         </p>
@@ -49,7 +47,7 @@ function App() {
         <h1>Skills</h1>
         <ul>
           <li>HTML</li>
-          <li>Css</li>
+          <li>CSS</li>
           <li>Bootstrap</li>
           <li>JavaScript</li>
           <li>React</li>
@@ -63,8 +61,7 @@ function App() {
 
       {/* PROJECTS */}
       <section id="a4" className="container py-5">
-        <h1 className="text-center mb-5 ">Projects</h1>
-
+        <h1 className="text-center mb-5">Projects</h1>
         <div className="row justify-content-center g-4">
 
           {/* Project 1 */}
@@ -108,77 +105,49 @@ function App() {
               >
                 View Project
               </a>
-
             </div>
           </div>
 
         </div>
       </section>
 
-
+      {/* CONTACT */}
       <section id="a5" className="container">
-
         <Contact />
 
-<div className="connectimg">
-  <a
-    href="https://www.linkedin.com/in/balaji-g-72a0503a9"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img src={linkedin} alt="LinkedIn" />
-  </a>
-
-  <a
-    href="https://www.instagram.com/_lovely_bala_official"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img src={insta} alt="Instagram" />
-  </a>
-
-  <a
-    href="https://wa.me/916383559277"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img src={whatsapp} alt="WhatsApp" />
-  </a>
-<a
-  href="https://mail.google.com/mail/?view=cm&to=balajilogu457@gmail.com"
-  target="_blank"
-  rel="noreferrer"
->
-  <img src={mail} alt="Email" />
-</a>
-
-  
-</div>
-
+        <div className="connectimg">
+          <a href="https://www.linkedin.com/in/balaji-g-72a0503a9" target="_blank" rel="noreferrer">
+            <img src={linkedin} alt="LinkedIn" />
+          </a>
+          <a href="https://www.instagram.com/_lovely_bala_official" target="_blank" rel="noreferrer">
+            <img src={insta} alt="Instagram" />
+          </a>
+          <a href="https://wa.me/916383559277" target="_blank" rel="noreferrer">
+            <img src={whatsapp} alt="WhatsApp" />
+          </a>
+          <a href="mailto:balajilogu457@gmail.com">
+            <img src={mail} alt="Email" />
+          </a>
+        </div>
       </section>
 
+      {/* FOOTER */}
       <footer className="footer mt-5">
-  <div className="container text-center">
-
-    <h5>Balaji</h5>
-    <p>Front-End Developer | React | JavaScript</p>
-    <p className="mt-2">
-     Call:+91 6383559277
-    </p>
-    <p className="mt-2">
-      Email: <a href="https://mail.google.com/mail/?view=cm&to=balajilogu457@gmail.com">balajilogu457@gmail.com</a>
-    </p>
-
-    <p className="mt-3 copyright">
-      © 2025 Balaji. All rights reserved.
-    </p>
-
-  </div>
-</footer>
-
+        <div className="container text-center">
+          <h5>Balaji</h5>
+          <p>Front-End Developer | React | JavaScript</p>
+          <p className="mt-2">Call: +91 6383559277</p>
+          <p className="mt-2">
+            Email: <a href="mailto:balajilogu457@gmail.com">balajilogu457@gmail.com</a>
+          </p>
+          <p className="mt-3 copyright">
+            © 2025 Balaji. All rights reserved.
+          </p>
+        </div>
+      </footer>
 
     </div>
   )
 }
 
-export default App;
+export default App
